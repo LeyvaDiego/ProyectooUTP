@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="CSS/principal.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="menu">
+    <ion-icon name="menu-outline"></ion-icon>
+    <ion-icon name="close-outline"></ion-icon>
+  </div>
+    <!-- Barra de navegacion -->
+    <div class="sidebar">
+      <div>
+        <div class="menu-icon">
+          <ion-icon id="barra" name="menu-outline"></ion-icon>
+        </div>
+      </div>
+        <nav class="navegacion">
+            <ul>
+                <li>
+                  <a id="inicio" href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home-2" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                  <path d="M5 12l-2 0l9 -9l9 9l-2 0" />
+                  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+                  <path d="M10 12h4v4h-4z" />
+                  </svg>
+                  <span>Inicio</span></a></li>
+                <li>
+                  <a href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chart-line" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                  <path d="M4 19l16 0" />
+                  <path d="M4 15l4 -6l4 2l4 -5l4 4" />
+                  </svg>
+                  <span>Ventas</span></a></li>
+                <li>
+                  <a href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-book-2" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                  <path d="M19 4v16h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12z" />
+                  <path d="M19 16h-12a2 2 0 0 0 -2 2" />
+                  <path d="M9 8h6" />
+                  </svg>
+                  <span>Productos</span></a></li>
+                <li>
+                  <a href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-package" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                  <path d="M12 3l8 4.5l0 9l-8 4.5l-8 -4.5l0 -9l8 -4.5" />
+                  <path d="M12 12l8 -4.5" />
+                  <path d="M12 12l0 9" />
+                  <path d="M12 12l-8 -4.5" />
+                  <path d="M16 5.25l-8 4.5" />
+                  </svg>
+                  <span>Stock</span></a></li>
+            </ul>
+        </nav>
+        <div class="linea"></div>
+        <!-- MODO OSCURO -->
+        <div class="modo-oscuro">
+          <div class="info">
+            <ion-icon name="moon-outline"></ion-icon>
+            <span>Dark</span> 
+          </div>
+          <div class="switch">
+            <div class="base">
+              <div class="circulo">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- CERRAR SESION -->
+        <div class="logout">
+          <a href="">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-logout" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M14 8v-2a2 2 0 0 0 -2 -2h-7a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h7a2 2 0 0 0 2 -2v-2" />
+            <path d="M9 12h12l-3 -3" />
+            <path d="M18 15l3 -3" />
+            </svg>
+            <span>Cerrar Sesión</span></a>
+        </div>
+    </div>
+    <!-- Contenido para los perfiles -->
+     <main>
+      <div class="container">
+        <div class="card shadow p-4 mb-4">
+            <div class="profile-header d-flex align-items-center mb-3">
+                <ion-icon name="person-circle-outline" style="font-size: 50px; margin-right: 20px;"></ion-icon>
+                <div class="profile-title">
+                    <h1 class="h4">MI PERFIL</h1>
+                    <div class="profile-details">
+                        <p class="mb-0">Diego Leyva</p>
+                        <p class="mb-0">A2313222</p>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-info">
+                <table class="table table-bordered">
+                    <tbody>
+                        <tr>
+                            <th>NOMBRES:</th>
+                            <td>Diego</td>
+                        </tr>
+                        <tr>
+                            <th>APELLIDOS:</th>
+                            <td>Leyva</td>
+                        </tr>
+                        <tr>
+                            <th>DNI:</th>
+                            <td>7231453</td>
+                        </tr>
+                        <tr>
+                            <th>CARGO ASIGNADO:</th>
+                            <td>[Cargo]</td>
+                        </tr>
+                        <tr>
+                            <th>GMAIL:</th>
+                            <td>diego1232@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <th>NÚMERO DE TELÉFONO:</th>
+                            <td>992143684</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="text-right">
+                <button class="btn btn-primary">Editar Perfil</button>
+            </div>
+        </div>
+    </div>
+    
+     </main>
+   
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="/script.js"></script>
+</body>
+</html>

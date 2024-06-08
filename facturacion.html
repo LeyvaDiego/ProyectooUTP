@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facturacion</title>
+    <link rel="stylesheet" href="CSS/facturacion.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Detalles del cliente -->
+      <div class="form-container">
+        <div class="cuenta">
+          ¿Ya tienes una cuenta? <a href="">Iniciar Sesión</a>
+        </div>
+        <h1>Detalles del cliente</h1>
+        <form class="formulario">
+          <section class="form-section">
+            <p>Email para confirmar el pedido*</p>
+            <input type="email" id="email" required />
+            <p>Nombre*</p>
+            <input type="text" class="username" required />
+            <p>Apellido*</p>
+            <input type="text" class="Apellido" required />
+            <p>Teléfono*</p>
+            <input type="tel" class="Telefono" required />
+          </section>
+          <h1 class="metodo-pago">MÉTODO DE PAGO</h1>
+          <div class="metodopago">
+            <p>PAGO CON TARJETA CRÉDITO/DÉBITO</p>
+            <div class="pago-container">
+              <div class="pago-item">
+                <img class="img" src="img/BCP.png" alt="BCP" />
+                <input type="radio" name="pago" id="pago1" />
+              </div>
+              <div class="pago-item">
+                <img class="img" src="img/INTERBANK+.png" alt="Interbank" />
+                <input type="radio" name="pago" id="pago2" />
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <!-- Detalles del envío -->
+      <div class="form-container">
+        <h1>Detalles del envío</h1>
+        <form>
+          <section class="form-section">
+            <p>Provincia*</p>
+            <input type="text" required />
+            <p>Dirección*</p>
+            <input type="text" required />
+            <p>Ciudad*</p>
+            <input type="text" required />
+            <p>Código postal*</p>
+            <input type="text" required />
+          </section>
+        </form>
+        <div class="metodopago">
+          <p>PAGO CON TRANSFERENCIA</p>
+          <div class="pago-container">
+            <div class="pago-item">
+              <img class="img" src="img/YAPE.png" alt="Yape" />
+              <input type="radio" name="pago" id="pago3" />
+            </div>
+            <div class="pago-item">
+              <img class="img" src="img/PLIN.png" alt="Plin" />
+              <input type="radio" name="pago" id="pago4" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Resumen de pedido -->
+      <div class="summary-container">
+        <div class="resumen">
+          <h1>Resumen de pedido (1)</h1>
+          <div class="pedido">
+            <img
+              src="img/short licra perso.jpg"
+              alt="Short clásico personalizado"
+            />
+            <div class="detalle">
+              <p><strong>Short clásico personalizado</strong></p>
+              <p>S/.50.00</p>
+              <p>Cant: 1</p>
+              <p>Talla: L</p>
+            </div>
+          </div>
+          <hr />
+          <div class="articulos">
+            <p>Artículos</p>
+            <p>S/.50.00</p>
+          </div>
+          <div class="envio">
+            <p>Entrega/Envio</p>
+            <p>--</p>
+          </div>
+          <hr />
+          <div class="total">
+            <p>Total</p>
+            <p>S/.50.00</p>
+          </div>
+          <div class="logo">
+            <img
+              src="img/logo-mc-removebg-preview.png"
+              alt="Marco Coronel Ropa Deportiva"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
